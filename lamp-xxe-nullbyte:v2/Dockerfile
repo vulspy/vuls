@@ -1,4 +1,4 @@
-FROM ubuntu-sshd:16.04
+FROM vulspy/ubuntu-sshd:16.04
 MAINTAINER Ambulong <zeng.ambulong@gmail.com>
 
 COPY httpd-2.4.29.tar.gz /tmp/httpd-2.4.29.tar.gz

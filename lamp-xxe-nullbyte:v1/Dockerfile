@@ -1,4 +1,4 @@
-FROM ubuntu-sshd:16.04
+FROM vulspy/ubuntu-sshd:16.04
 MAINTAINER Ambulong <zeng.ambulong@gmail.com>
 
 RUN apt-get update && \

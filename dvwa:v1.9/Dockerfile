@@ -1,4 +1,4 @@
-FROM lamp-xxe-nullbyte:v2
+FROM vulspy/lamp-xxe-nullbyte:v2
 MAINTAINER Ambulong <zeng.ambulong@gmail.com>
 
 COPY php.ini /usr/local/php/lib/php.ini
